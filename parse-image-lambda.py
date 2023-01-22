@@ -30,7 +30,7 @@ def lambda_handler(event, context):
         }
     )
 
-    # Copy object to another location
+    # Copy object to another location for tracking progress
     copy_source = {'Bucket': bucket, 'Key': key}
     s3.copy_object(Bucket='BUCKET', CopySource=copy_source,
                    Key='DESTINATION_KEY/'+key)
