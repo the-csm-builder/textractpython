@@ -21,5 +21,7 @@ Configuration
 
 Usage
 
-    To test the script, you can simulate an S3 event by passing a sample event object to the lambda_handler function.
-    To use the script in an AWS Lambda function, you will need to package the script and its dependencies, and then upload the package to the Lambda function.
+    To test the script, you can simulate an S3 event by passing a sample event object to the lambda_handler function. Or drop , upload a file to S3 bucket.
+    To use the script in an AWS Lambda function, you will need to create Lambda function.
+    Add event notification to the S3 bucket.
+    Add necessary permissions to the lambda function.
